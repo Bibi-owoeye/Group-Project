@@ -8,6 +8,13 @@ li{
     padding: 3px;
     
 }
+.responsive{
+    display: none;
+    
+}
+.navoptions{
+    display: none;
+}
 a:hover{
     color: blue;
     font-size:18px ;
@@ -27,7 +34,10 @@ nav{
     z-index: 1000;
     padding: 10px;
     justify-content: space-between;
-    background-color: rgb(254, 243, 229);
+    background-color: rgb(232, 78, 203);
+}
+.d-seven{
+    color: rgb(71, 12, 71);
 }
 nav ul{
     display: flex;
@@ -39,18 +49,18 @@ nav ul{
 .Departments{
     display: none;
     position: absolute;
-    top: 60px;
+    top: 80px;
     z-index: 1000;
     text-decoration: underline;
     font-size: 18px;
     border: 2px ;
-    background-color: rgb(254, 243, 229);
+    background-color: white;
     padding: 10px 20px;
 }
 .departmentHead:hover .Departments{
     display: block;
 }
 .departmentHead{
-    background-color: rgb(254, 243, 229);
+    background-color:rgb(232, 78, 203);
 
 }
